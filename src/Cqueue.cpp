@@ -2,7 +2,7 @@
 // Created by mohamed on 12/6/22.
 //
 
-#include "Cqueue.hpp"
+#include "Cqueue.h"
 
 Cqueue::Cqueue() : front(-1), rear(-1) {
 }
