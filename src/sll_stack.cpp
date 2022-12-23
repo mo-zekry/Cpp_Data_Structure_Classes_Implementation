@@ -2,7 +2,7 @@
 // Created by mohamed on 12/11/22.
 //
 
-#include "sll_stack.hpp"
+#include "sll_stack.h"
 
 Sll_stack::Sll_stack() : top(nullptr) {}
 
