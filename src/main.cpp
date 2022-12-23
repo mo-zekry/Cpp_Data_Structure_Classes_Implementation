@@ -1,10 +1,10 @@
 #include <iostream>
-#include "linkedList.hpp" // linked list class
-#include "Cqueue.hpp" // circular queue class
-#include "SQueue.hpp" // simple queue class
-#include "sll_Queue.hpp" // queue using linked list class
-#include "stack" // array stack class
-#include "sll_stack.hpp" // linked list stack
+#include "linkedList.h" // linked list class
+#include "Cqueue.h" // circular queue class
+#include "SQueue.h" // simple queue class
+#include "sll_Queue.h" // queue using linked list class
+#include "stack.h" // array stack class
+#include "sll_stack.h" // linked list stack
 
 int main() {
 
