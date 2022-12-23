@@ -43,7 +43,7 @@ void SQueue::EnQueue(int value) {
 
 void SQueue::DeQueue() {
     if (isEmpty()) {
-        std::cerr << "Queue is empty" << std::endl;
+        std::cout << "Queue is empty" << std::endl;
     } else {
         front++;
     }
@@ -53,7 +53,7 @@ void SQueue::DeQueue() {
 
 int SQueue::peek() {
     if (isEmpty()) {
-        std::cerr << "Empty queue" << std::endl;
+        std::cout << "Empty queue" << std::endl;
         return -1;
     } else {
         return queue[front];
@@ -64,7 +64,7 @@ int SQueue::peek() {
 
 void SQueue::Display() {
     if (isEmpty()) {
-        std::cerr << "Queue is empty" << std::endl;
+        std::cout << "Queue is empty" << std::endl;
     } else {
         std::cout << "Queue = [ ";
         for (int i = front; i <= rear; ++i) {
