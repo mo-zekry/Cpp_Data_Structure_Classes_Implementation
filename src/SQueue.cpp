@@ -2,7 +2,7 @@
 // Created by mohamed on 12/6/22.
 //
 
-#include "SQueue.hpp"
+#include "SQueue.h"
 
 SQueue::SQueue() {
     front = -1;
