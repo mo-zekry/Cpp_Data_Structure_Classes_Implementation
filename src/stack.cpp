@@ -34,7 +34,7 @@ void Stack::push(int value) {
 
 void Stack::pop() {
     if (isEmpty()) {
-        std::clog << "Empty Stack!!" << std::endl;
+        std::cout << "Empty Stack!!" << std::endl;
     } else {
         top--;
     }
@@ -44,7 +44,7 @@ void Stack::pop() {
 
 int Stack::getTop() {
     if (isEmpty()) {
-        std::clog << "Empty Stack!!" << std::endl;
+        std::cout << "Empty Stack!!" << std::endl;
         return -1;
     } else {
         return stack[top];
@@ -55,7 +55,7 @@ int Stack::getTop() {
 
 void Stack::Display() {
     if (isEmpty()) {
-        std::clog << "Empty Stack!!" << std::endl;
+        std::cout << "Empty Stack!!" << std::endl;
     } else {
         for (int i = top; i > -1; i--) {
             std::cout << "|" << stack[i] << "|" << std::endl;
@@ -65,7 +65,7 @@ void Stack::Display() {
 
 void Stack::Remove() {
     if (isEmpty()) {
-        std::clog << "Empty Stack!!" << std::endl;
+        std::cout << "Empty Stack!!" << std::endl;
     } else {
         for (int i = top; i > -1; i--) {
             top--;
