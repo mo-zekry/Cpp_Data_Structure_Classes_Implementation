@@ -13,9 +13,9 @@ class SQueue {
   public:
   SQueue();
 
-  bool isEmpty() const;
+  bool isEmpty();
 
-  bool isFull() const;
+  bool isFull();
 
   void EnQueue(int value);
 
