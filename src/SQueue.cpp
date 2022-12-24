@@ -11,13 +11,13 @@ SQueue::SQueue() {
 
 //===//===//===//===//===//===//===//===//===//===//===/===//===//===//===//===//===/
 
-bool SQueue::isEmpty() const {
+bool SQueue::isEmpty() {
     return (front == -1 && rear == -1);
 }
 
 //===//===//===//===//===//===//===//===//===//===//===/===//===//===//===//===//===/
 
-bool SQueue::isFull() const {
+bool SQueue::isFull() {
     return rear == SIZE - 1;
 }
 
